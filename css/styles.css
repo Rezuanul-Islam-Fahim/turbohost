@@ -1,0 +1,89 @@
+@charset "utf-8";
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+body {
+	margin: 0;
+	background: #ffffff;
+	position: relative;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* ===============================
+     Header starts from here 
+================================== */
+header {
+	position: relative;
+	width: 100%;
+}
+header .main {
+	width: 100%;
+	border-top: 5px solid #ED441D;
+	border-bottom: 1px solid #B2B2B2;
+	overflow: hidden;
+}
+header .main #logo {
+	float: left;
+	margin: 16px;
+	margin-left: 30px;
+}
+header .main #logo a {
+	text-decoration: none;
+}
+header .main #logo a img {
+	width: 220px;
+	height: auto;
+}
+/* ===============================
+ Preview section starts from here 
+================================== */
+#preview {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#preview .main-cont {
+	margin: auto;
+	text-align: center;
+}
+#preview .main-cont .container {
+	width: 23%;
+	display: inline-block;
+	margin: 50px;
+}
+#preview .main-cont .container a {
+	text-decoration: none;
+}
+#preview .main-cont .container a img {
+	width: 100%;
+	height: auto;
+	-webkit-transition: 0.6s;
+	transition: 0.6s;
+}
+#preview .main-cont .container a img:hover {
+	-webkit-transform: scale(1.07);
+	-ms-transform: scale(1.07);
+	transform: scale(1.07)
+}
+/* ====================================
+     Footer section starts from here
+==================================== */
+footer .bottom {
+	text-align: center;
+	background-color: rgba(153,153,153,1.00);
+}
+footer .bottom #copyright {
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: calibri;
+	margin: 0;
+	padding: 26px 28px;
+}

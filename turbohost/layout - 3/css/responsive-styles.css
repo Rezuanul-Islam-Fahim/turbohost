@@ -1,0 +1,878 @@
+@charset "utf-8";
+
+/*
+
+* @package TurboHost
+
+* @copyright (C) 2016 by Fahim71 - All rights reserved!
+
+* @license GNU General Public License, version 2 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+* @author Fahim-ProX <rifahim98@gmail.com> 
+
+* @authorurl <https://themeforest.net/user/fahim-prox>
+
+*/
+
+/* Responsive CSS Document */
+
+
+/* --------- Hide on tablet --------- */
+@media only screen and (max-width:767px) {
+.tablet-hide {
+	display: none !important;
+}
+}
+
+/* ------- Hide on pc ---------- */
+@media only screen and (min-width:767px) {
+.tbnpn-show {
+	display: none !important;
+}
+}
+
+/* --------- Show on phone & tablet --------- */
+@media only screen and (max-width:767px) {
+.tbnpn-show {
+	display: block;
+}
+}
+
+/* --------- Show on tablet --------- */
+@media only screen and (max-width:767px) {
+.tablet-show {
+	display: block;
+}
+}
+
+/* --------- Hide on phone --------- */
+@media only screen and (max-width:480px) {
+.phone-hide {
+	display: none;
+}
+}
+
+/* --------- Show on phone --------- */
+@media only screen and (max-width:480px) {
+.phone-show {
+	display: block !important;
+}
+}
+
+/* ------- Special design --------- */
+@media only screen and (max-width:1300px) {
+footer #works .last-cont {
+	width: 23%;
+}
+}
+
+@media only screen and (max-width:1200px) {
+footer #works .first-cont {
+	width: 18.3%;
+	margin: 26px 1.3%;
+}
+footer #works .last-cont {
+	width: 25%;
+}
+#contact-us {
+	width: 67%;
+}
+}
+
+@media only screen and (max-width:1100px) {
+#solution .main-cont .container {
+	width: 28%;
+	height: 360px;
+}
+#solution .main-cont .container img {
+	width: 90px;
+}
+#solution .main-cont .container h2 {
+	font-size: 16px;
+}
+#hostings .main-cont .container button {
+	padding: 13px 18px;
+	font-size: 13px;
+}
+footer #works .first-cont {
+	width: 19%;
+	margin: 26px 1%;
+}
+#contact-us {
+	width: 72%;
+}
+}
+
+@media only screen and (max-width:1000px) {
+.navbar-nav li.dropdown .dropdown-cont {
+	margin-left: -430px;
+	padding: 8px;
+}
+#credit {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#credit .container {
+	width: 28%;
+	height: auto;
+	margin: 2%;
+}
+#credit .container .details {
+	width: 70%;
+}
+#credit .container .details h2 {
+	font-size: 15px;
+}
+#services #main-cont .container {
+	width: 28%;
+	height: 120px;
+	margin: 18px;
+}
+#services #main-cont .container .details h2 {
+	font-size: 16px;
+}
+#hostings .main-cont .container {
+	margin: 16px;
+	width: 27%;
+}
+#hostings .main-cont .container h2 {
+	font-size: 17px;
+}
+#hostings .main-cont .container p.price {
+	font-size: 36px;
+}
+footer #contact #newsletter {
+	float: right;
+	padding: 10px 40px;
+	width: 510px;
+}
+footer #contact #newsletter input[type=text] {
+	width: 290px;
+}
+footer #contact #help p {
+	font-size: 17px;
+}
+footer #contact #help p.number {
+	font-size: 17px;
+}
+footer #works .first-cont {
+	width: 25%;
+	margin: 26px 2%;
+}
+footer #works .last-cont {
+	width: 31%;
+}
+#login {
+	width: 50%;
+}
+#contact-us h2 {
+	font-size: 28px;
+}
+#contact-us h2 span {
+	font-size: 20px;
+}
+}
+
+@media only screen and (max-width:957px) {
+.navbar-nav li.dropdown .dropdown-cont {
+	width: 800px;
+	margin-left: -350px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans {
+	width: 68%;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a {
+	width: 252px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a img {
+	padding-right: 8px;
+	margin-right: 8px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a h2 {
+	font-size: 17px;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host p.praise {
+	margin: 26px 0 0 0;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host button {
+	margin-top: 16px;
+}
+#credit .container {
+	width: 29%;
+	margin: 1%;
+}
+#credit .container img {
+	margin-right: 8px;
+}
+#credit .container .details {
+	width: 75%;
+}
+#credit .container .details h2 {
+	font-size: 14px;
+}
+#login {
+	width: 58%;
+}
+}
+
+@media only screen and (max-width:880px) {
+#logo {
+	margin: 18px 0 18px 0px;
+}
+#logo img {
+	width: 200px;
+}
+.navbar-nav li a {
+	padding: 10px 8px !important;
+}
+.navbar-nav li.dropdown .dropdown-cont {
+	margin-left: -360px;
+	width: 760px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a {
+	width: 240px;
+}
+#services #main-cont .container {
+	width: 36%;
+	height: 140px;
+	margin: 15px;
+}
+#services #main-cont .container .img-cont {
+	float: none;
+	margin: auto auto 8px auto;
+}
+#services #main-cont .container .details {
+	width: auto;
+	float: none;
+}
+#services #main-cont .container .details h2 {
+	text-align: center;
+	font-size: 17px;
+}
+#services #main-cont .container .details p {
+	text-align: center;
+}
+#solution .main-cont .container {
+	width: 40%;
+	height: auto;
+}
+#hostings .main-cont .container {
+	margin: 16px;
+	width: 42%;
+}
+#hostings .main-cont .container h2 {
+	font-size: 17px;
+}
+#hostings .main-cont .container button {
+	padding: 14px 17px;
+	font-size: 13px;
+}
+#hostings .main-cont .container p.price {
+	font-size: 34px;
+}
+#login h2 {
+	font-size: 30px;
+}
+#login h2 span {
+	font-size: 18px;
+}
+#contact-us {
+	width: 80%;
+}
+#contact-us h2 {
+	font-size: 27px;
+}
+#contact-us h2 span {
+	font-size: 19px;
+}
+}
+
+@media only screen and (max-width:835px) {
+.navbar-nav li.dropdown .dropdown-cont {
+	width: 690px;
+	margin-left: -290px;
+	padding: 12px 10px 12px 10px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans {
+	width: 68%;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a {
+	width: 216px;
+	margin: 10px 4px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a h2 {
+	font-size: 15px;
+}
+.navbar-nav li.dropdown .dropdown-cont .plans a p {
+	font-size: 14px;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host {
+	height: 240px;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host p.price {
+	font-size: 32px;
+	font-weight: 600;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host p.price-pre {
+	font-size: 18px;
+	margin: 2px;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host p.praise {
+	margin: 16px 0 0 0;
+	font-size: 16px;
+}
+.navbar-nav li.dropdown .dropdown-cont .sample-host button {
+	font-size: 13px;
+	padding: 10px 14px;
+	margin-top: 14px;
+}
+}
+
+@media only screen and (max-width:820px) {
+#services #main-cont .container {
+	width: 40%;
+	height: 160px;
+}
+#solution .main-cont .container {
+	width: 43%;
+}
+footer #contact #help {
+	padding: 27px;
+}
+footer #contact #help p {
+	font-size: 15px;
+}
+footer #contact #help p.number {
+	font-size: 15px;
+}
+footer #contact #newsletter {
+	width: 480px;
+}
+footer #contact #newsletter input[type=text] {
+	padding: 12px;
+	font-size: 13px;
+}
+footer #contact #newsletter button {
+	font-size: 12px;
+	padding: 14px 18px;
+}
+}
+
+/* ------- Tablet design --------- */
+@media only screen and (max-width:767px) {
+header .top {
+	height: 46px;
+	padding: 3px;
+}
+header .top .social {
+	margin: 5px 0 0 38px;
+}
+header .top .top-navigation ul.top-opt {
+	padding-right: 0;
+}
+#logo {
+	margin: 18px 0 18px 10px;
+}
+#logo img {
+	width: 240px;
+}
+.navbar-toggle {
+	margin-right: 19px;
+	margin-top: 28px;
+}
+.navbar-nav {
+	margin: 0 !important;
+}
+.navbar-nav>li>a {
+	padding: 11px 13px !important;
+	border-bottom: 1px solid #E7E7E7;
+}
+.navbar-nav li a:hover {
+	background-color: #F4F4F4 !important;
+}
+.navbar-nav li.dropdown:hover .dropdown-cont {
+	display: none;
+}
+#top-des {
+	height: 410px;
+}
+#top-des h2 {
+	font-size: 36px;
+}
+#top-des p {
+	font-size: 27px;
+	padding: 20px 0 0 0;
+}
+#credit .container {
+	width: 77%;
+	margin: 2%;
+}
+#credit .container .details {
+	width: 88%;
+}
+#services h2 {
+	font-size: 30px;
+}
+#services p {
+	font-size: 15px;
+}
+#services #main-cont {
+	margin: 30px auto 10px auto;
+}
+#admin h2 {
+	font-size: 30px;
+}
+#admin h2 span {
+	top: 4px;
+}
+#admin h2 span img {
+	width: 32px;
+}
+#admin .main-cont {
+	width: 80%;
+	padding: 30px 10px 70px 10px;
+}
+#sponsor {
+	padding: 26px 0 26px 0;
+}
+footer #contact #help {
+	padding: 17px;
+	width: 260px;
+}
+footer #contact #help p {
+	font-size: 16px;
+}
+footer #contact #help p.number {
+	font-size: 16px;
+}
+footer #contact #newsletter {
+	width: 420px;
+}
+footer #contact #newsletter input[type=text] {
+	width: 220px;
+}
+footer #works {
+	padding-top: 23px;
+	padding-bottom: 25px;
+}
+footer #works .first-cont {
+	width: 32%;
+	margin: 26px 4%;
+}
+footer #works .last-cont {
+	width: 39%;
+}
+footer #works .container img.sponsor {
+	width: 90px;
+}
+footer #works .container img.sponsor2 {
+	width: 53px;
+}
+footer .bottom {
+	text-align: center;
+}
+footer .bottom #copyright {
+	float: none;
+	margin: 26px 0 13px 0;
+}
+footer .bottom #termsnprivacy {
+	float: none;
+	margin: 13px 0 26px 0;
+}
+#login {
+	width: 64%;
+}
+#contact-us {
+	width: 88%;
+}
+#contact-us h2 {
+	font-size: 26px;
+}
+#contact-us h2 span {
+	font-size: 17px;
+}
+}
+
+/* ----- Special design ------ */
+@media only screen and (max-width:700px) {
+footer #contact #help {
+	float: none;
+	padding: 24px;
+	width: 400px;
+}
+footer #contact #help p {
+	font-size: 18px;
+}
+footer #contact #help p.number {
+	font-size: 18px;
+}
+footer #contact #newsletter {
+	margin-top: 16px;
+	width: 100%;
+	position: relative;
+}
+footer #contact #newsletter input[type=text] {
+	padding: 14px;
+	font-size: 13px;
+	width: 370px;
+}
+footer #contact #newsletter button {
+	font-size: 13px;
+	padding: 15px 20px;
+}
+footer #works .container img.logo {
+	width: 200px;
+	margin-bottom: 18px;
+}
+#login {
+	width: 72%;
+}
+}
+
+@media only screen and (max-width:690px) {
+footer #works .first-cont {
+	width: 35%;
+	margin: 26px 4%;
+}
+footer #works .last-cont {
+	width: 40%;
+}
+#contact-us {
+	width: 97%;
+	padding: 50px 20px;
+}
+}
+
+@media only screen and (max-width:595px) {
+#credit .container {
+	width: 90%;
+}
+#credit .container .details {
+	width: 84%;
+}
+#credit .container .details p {
+	font-size: 14px;
+}
+}
+
+@media only screen and (max-width:570px) {
+#solution .main-cont .container {
+	width: 62%;
+	margin: 0;
+}
+#hostings .main-cont .container {
+	margin: 20px;
+	width: 62%;
+}
+footer #contact #help {
+	padding: 18px;
+	width: 73%;
+}
+footer #contact #help p {
+	font-size: 15px;
+}
+footer #contact #help p.number {
+	font-size: 16px;
+}
+footer #contact #newsletter input[type=text] {
+	font-size: 12px;
+	width: 70%;
+}
+footer #contact #newsletter button {
+	font-size: 12px;
+	padding: 15px 18px;
+}
+footer #works .first-cont {
+	width: 40%;
+	margin: 26px 2%;
+}
+footer #works .last-cont {
+	width: 46%;
+}
+#login {
+	width: 86%;
+}
+#contact-us {
+	width: 95%;
+}
+#contact-us h2 {
+	font-size: 25px;
+}
+}
+
+/* -------- Mobile design ----------- */
+@media only screen and (max-width:480px) {
+header .top .social {
+	margin: 5px 0 0 20px;
+}
+header .top .social a {
+	margin-right: 5px;
+}
+header .top .top-navigation ul.top-opt {
+	margin: 0 25px 0 0;
+}
+.top-dropdown {
+	float: none;
+	margin-left: -40px;
+	margin-right: 0;
+}
+.top-dropdown .dropdown-menu {
+	margin-left: -74px !important;
+}
+#logo {
+	margin: 14px 0 14px 10px;
+}
+#logo img {
+	width: 210px;
+}
+.navbar-nav>li>a {
+	padding: 10px 12px !important;
+	font-size: 14px !important;
+}
+.navbar-toggle {
+	margin-right: 12px;
+	margin-top: 25px;
+	padding: 7px 8px;
+}
+#top-des h2 {
+	font-size: 28px;
+}
+#top-des p {
+	font-size: 22px;
+	padding: 20px 0 0 0;
+}
+#credit .container {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#credit .container img {
+	float: none;
+	margin-bottom: 8px;
+}
+#credit .container .details {
+	float: none;
+	width: 100%;
+}
+#services {
+	padding: 45px 0 34px 0;
+}
+#services h2 {
+	font-size: 25px;
+}
+#services #main-cont .container {
+	width: 60%;
+	height: auto;
+}
+#services button {
+	padding: 12px 16px;
+}
+#solution .main-cont .container {
+	width: 80%;
+}
+#solution .main-cont .container img {
+	width: 85px;
+}
+#hostings .main-cont .container {
+	margin: 26px;
+	width: 80%;
+}
+#hostings .main-cont .container .img-cont {
+	width: 90px;
+	height: 90px;
+	margin: 28px auto 12px auto;
+}
+#hostings .main-cont .container .img-cont img {
+	width: 44px;
+	height: auto;
+	margin: 22px;
+}
+#hostings .main-cont .container p.price {
+	font-size: 36px;
+}
+#hostings .main-cont .container button {
+	padding: 13px 16px;
+	font-size: 13px;
+}
+#admin h2 {
+	font-size: 25px;
+}
+#admin h2 span {
+	top: 3px;
+}
+#admin h2 span img {
+	width: 26px;
+}
+#admin .main-cont {
+	width: 86%;
+}
+#admin .main-cont p {
+	font-size: 15px;
+}
+#sponsor {
+	padding: 20px 0 20px 0;
+}
+footer #contact #help {
+	padding: 16px;
+}
+footer #contact #help p.number {
+	font-size: 15px;
+}
+footer #contact #newsletter p {
+	font-size: 13px;
+}
+footer #works .container {
+	display: block;
+}
+footer #works .first-cont {
+	width: 192px;
+	margin: 26px auto;
+}
+footer #works .last-cont {
+	width: 265px;
+}
+footer .bottom #copyright {
+	margin: 20px 22px 13px 22px;
+}
+footer .bottom #termsnprivacy {
+	margin: 13px 22px 20px 22px;
+}
+#login {
+	width: 92%;
+	padding: 30px 20px;
+}
+#login h2 {
+	font-size: 23px;
+}
+#login h2 span {
+	font-size: 16px;
+	margin-left: 5px;
+}
+#login .login-text {
+	font-size: 16px;
+}
+#login .log-pass {
+	padding: 10px;
+	margin-top: 2px;
+	font-size: 15px;
+}
+#login .submit .access {
+	padding: 7px 9px;
+	font-size: 15px;
+}
+#contact-us {
+	width: 100%;
+}
+#contact-us h2 {
+	font-size: 23px;
+	margin-bottom: 14px;
+}
+#contact-us h2 span {
+	font-size: 15px;
+}
+#contact-us .container {
+	width: 100%;
+	margin: 7px auto 0;
+}
+#contact-us .container .descript {
+	float: none;
+	font-size: 16px;
+	margin: 16px 12px 0 0;
+	text-align: left;
+}
+#contact-us .container .input-box {
+	width: 100%;
+	padding: 8px;
+	margin-top: 6px;
+}
+#contact-us .container .message {
+	width: 100%;
+	height: 120px;
+	padding: 10px;
+	margin-top: 6px;
+}
+#contact-us .send-button {
+	padding: 7px 12px;
+	font-size: 14px;
+}
+}
+
+/* ------- Special design --------- */
+@media only screen and (max-width:420px) {
+footer #contact #newsletter input[type=text] {
+	width: 90%;
+	padding: 11px;
+}
+footer #contact #newsletter button {
+	font-size: 12px;
+	padding: 11px 15px;
+	margin-top: 6px;
+}
+}
+
+@media only screen and (max-width:360px) {
+#logo {
+	margin: 14px 0 14px 0;
+}
+#logo img {
+	width: 190px;
+}
+.navbar-toggle {
+	margin-right: 8px;
+}
+#services #main-cont .container {
+	width: 90%;
+}
+#solution .main-cont .container {
+	width: 88%;
+}
+#hostings .main-cont .container {
+	width: 88%;
+	margin: 20px 0 20px 0;
+}
+footer #contact #help {
+	width: 90%;
+}
+footer #works .last-cont {
+	width: 90%;
+}
+#login {
+	width: 100%;
+}
+#login .submit .access {
+	padding: 6px 8px;
+	font-size: 14px;
+}
+#contact-us {
+	padding: 40px 10px;
+}
+#contact-us h2 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#contact-us .send-button {
+	padding: 7px 9px;
+}
+}
+
+@media only screen and (max-width:310px) {
+.top-dropdown {
+	margin-left: -30px;
+}
+.top-dropdown .dropdown-menu {
+	margin-left: -80px !important;
+}
+.top-dropdown .dropdown-menu::after {
+	left: 96%;
+	margin-left: -22px;
+}
+}
+
+@media only screen and (max-width:250px) {
+#hostings .main-cont .container button {
+	font-size: 11px;
+}
+footer #works .container img.logo {
+	width: 180px;
+}
+}

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@media screen and (max-width:1100px) {
+#preview .main-cont .container {
+	width: 23%;
+	margin: 40px;
+}
+}
+
+@media screen and (max-width:900px) {
+#preview .main-cont .container {
+	width: 33%;
+	margin: 60px;
+}
+}
+
+@media screen and (max-width:830px) {
+#preview .main-cont .container {
+	margin: 50px;
+}
+}
+
+@media screen and (max-width:767px) {
+header .main #logo {
+	margin-left: 20px;
+}
+header .main #logo a img {
+	width: 200px;
+}
+#preview .main-cont .container {
+	width: 35%;
+	margin: 40px;
+}
+}
+
+@media screen and (max-width:650px) {
+#preview .main-cont .container {
+	width: 36%;
+	margin: 30px;
+}
+}
+
+@media screen and (max-width:550px) {
+#preview .main-cont .container {
+	width: 66%;
+	margin: 30px;
+}
+}
+
+@media screen and (max-width:480px) {
+header .main #logo {
+	margin-left: 15px;
+}
+header .main #logo a img {
+	width: 190px;
+}
+#preview {
+	padding: 30px;
+}
+#preview .main-cont .container {
+	width: 87%;
+	margin: 0;
+	margin-bottom: 40px;
+}
+footer .bottom #copyright {
+	padding: 20px 8px;
+}
+}
+
+@media only screen and (max-width:360px) {
+header .main #logo {
+	margin: 12px;
+}
+header .main #logo a img {
+	width: 180px;
+}
+#preview .main-cont .container {
+	width: 100%;
+	margin-bottom: 30px;
+}
+}
